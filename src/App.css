@@ -1,0 +1,20 @@
+*{margin: 0px; padding: 0px;}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body{font-family: "Lato", sans-serif; font-size: 16px;}
+
+.bg-pink{background: #d600ff}
+
+.headerWrapper .top-strip{padding: 8px 0px; }
+.headerWrapper .top-strip p{color: #fff; font-size: 14px; font-weight:750;}
+
+.headerWrapper .header{width: 100%; height: auto; padding: 15px 0px;}
+.logoWrapper img{width: 100%;}
+
+/* material UI */
+.headerWrapper .header .part2 .countryDrop{width: 155px; height:60px; min-width: 155px; color: #000 !important; border: 1px solid rgba(0,0,0,0.2) !important; border-radius: 7px !important; padding: 10px 20px !important;}
+.headerWrapper .header .part2 .countryDrop{text-align: left; justify-content: flex-start !important;}
+/* important for  ensuring that my styles are applied instead of the default styles from those libraries. */
+.headerWrapper .header .part2 .countryDrop .label{font-size: 12px !important; text-transform: capitalize !important; color: rgba(0,0,0,0.5) !important; line-height: 16px;}
+.headerWrapper .header .part2 .countryDrop .name{font-size: 14px !important; text-transform: capitalize !important; color: #233a95!important; font-weight: 800; line-height: 16px;}
